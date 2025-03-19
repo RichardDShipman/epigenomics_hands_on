@@ -240,6 +240,8 @@ done
 
 34537
 
+There are a reported 34,537 peaks that fall outside gene coordinates.
+
 # 5_Distal_regulatory_activity
 
 ## Study distal regulatory activity
