@@ -49,9 +49,10 @@ head -1 metadata.tsv | awk 'BEGIN{FS=OFS="\t"}{for (i=1;i<=NF;i++){print $i, i}}
 ```
 
 # Use metadata file to gather correct files for analysis
-# bigBed narrow
-# pseudoreplicated peaks
-# assembly GRCh38
+
+- bigBed narrow
+- pseudoreplicated peaks
+- assembly GRCh38
 
 ```sh
 grep -F ATAC-seq metadata.tsv | 
